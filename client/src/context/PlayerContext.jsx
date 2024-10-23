@@ -8,7 +8,7 @@ const PlayerContextProvider = (props) => {
   const seekbg = useRef();
   const seekBar = useRef();
 
-  const url = 'http://localhost:4000';
+  const url = 'https://mern-spotify-clone-backend.onrender.com';
   const [songsData, setSongsData] = useState([]);
   const [albumsData, setAlbumsData] = useState([]);
 
